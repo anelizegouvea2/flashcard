@@ -1,13 +1,13 @@
 :root {
-    --card-front-color: #2d2d2d;
-    --card-back-color: #444;
-    --card-title-color: gold;
+    --card-front-color: #03397C;
+    --card-back-color: #03397C;
+    --card-title-color: #7dade7a9;
     --text-color: white;
-    --footer-color: black;
+    --footer-color: rgb(0, 0, 0);
 }
 
 body {
-    background-image: url('img/274c1dd4b2c16056c25c470070625835 (1).jpg');
+    background: url('voleiassets.webp');
     background-size: cover;
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -32,6 +32,9 @@ body {
     width: 300px;
     height: 320px;
     position: relative;
+}
+.cartao__conteudo h3  {
+    backface-visibility: hidden;
 }
 
 /* Título fixo (tema do cartão) */
@@ -58,7 +61,7 @@ body {
     height: 100%;
     width: 100%;
     transform-style: preserve-3d;
-    transition: transform 0.6s;
+    transition: transform 0.6s ease-in-out;
     position: relative;
     border-radius: 10px;
 }
